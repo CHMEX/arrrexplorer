@@ -1,6 +1,6 @@
 {
   "network": "mainnet",
-  "port": 3002,
+  "port": 3777,
   "services": [
     "bitcoind",
     "insight-api-komodo",
@@ -12,10 +12,10 @@
       "connect": [
         {
           "rpchost": "127.0.0.1",
-          "rpcport": 8233,
+          "rpcport": 8268,
           "rpcuser": "bitcoin",
           "rpcpassword": "local321",
-          "zmqpubrawtx": "tcp://127.0.0.1:8333"
+          "zmqpubrawtx": "tcp://127.0.0.1:8368"
         }
       ]
     },
